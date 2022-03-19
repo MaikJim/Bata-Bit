@@ -287,7 +287,7 @@ main {
 
 .product-detail--card .clock{
     display: inline-block;
-    width: 20px;
+    width: 25px;
     height: 25px;
     margin-bottom: 10px;
     background-image: url("./Assets/icons/clock1.svg");
@@ -311,7 +311,7 @@ main {
 }
 .product-detail--card .eye{
     display: inline-block;
-    width: 20px;
+    width: 25px;
     height: 25px;
     margin-bottom: 10px;
     background-image: url("./Assets/icons/eye.svg");
@@ -321,7 +321,7 @@ main {
 }
 .product-detail--card .dollar{
     display: inline-block;
-    width: 20px;
+    width: 25px;
     height: 25px;
     margin-bottom: 10px;
     background-image: url("./Assets/icons/dollar-sign1.svg");
@@ -331,11 +331,36 @@ main {
 }
 .product-detail--card .check{
     display: inline-block;
-    width: 20px;
+    width: 25px;
     height: 25px;
     margin-bottom: 10px;
     background-image: url("./Assets/icons/check-circle1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.bitcoin-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url(./Assets/images/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bitcoin-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
 }
