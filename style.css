@@ -453,3 +453,9 @@ main {
     background-image: url("./Assets/icons/arrow-right.svg");
     vertical-align: text-bottom;
 }
+.blac{
+    background-color: var(--warm-black);
+}
+.gris{
+    background-color: var(--gray);
+}
